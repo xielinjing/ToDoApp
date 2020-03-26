@@ -1,0 +1,14 @@
+
+
+<div class="addnew">
+        
+
+        <h2>Add New</h2>
+    <p>Title: <input type="text" [(ngModel)]="title" /></p>
+    <p>Description: <input type="text" [(ngModel)]="description" /></p>
+    <p>DueDate: <input type="text" [(ngModel)]="DueDate" placeholder="yyyy-mm-dd"/></p>
+    <p>DueTime: <input type="text" [(ngModel)]="DueTime" placeholder="hh:ss"/></p>
+    <br>
+    <button class="add" (click)="add()">Add</button>
+    <button class="back" (click)="back()">Back</button>
+</div>

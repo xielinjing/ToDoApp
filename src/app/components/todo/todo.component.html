@@ -1,0 +1,29 @@
+
+
+
+<div class="todolist">
+    <button class="add" (click)="addNew()">Add</button>
+
+    <h3>To Do List</h3>
+    <ul>
+        <li *ngFor="let item of todolist; let key=index" [hidden]="item.isFinished==true">
+            <input type="checkbox" [(ngModel)]="item.isFinished" (change)='checkboxChange(key)'/>
+            {{item.title}}
+            <button (click)="goDetail(key)">View</button>
+            <button (click)="delete(key)">Delete</button>
+        </li>
+    </ul>
+
+    <h3>Done List</h3>
+    <ul>
+        <li *ngFor="let item of todolist; let key=index" [hidden]="item.isFinished==false">
+            <input type="checkbox" [(ngModel)]="item.isFinished" (change)='checkboxChange(key)'/>
+            {{item.title}}
+            <button (click)="goDetail(key)">View</button>
+            <button (click)="delete(key)">Delete</button>
+        </li>
+    </ul>
+
+
+
+</div>

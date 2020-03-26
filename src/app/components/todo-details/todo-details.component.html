@@ -1,0 +1,15 @@
+
+
+<div class="detail">
+        
+
+        <h2>Todo's Detail</h2>
+    <p>Title: <input type="text" [(ngModel)]="item.title" /></p>
+    <p>Description: <input type="text" [(ngModel)]="item.description" /></p>
+    <p>DueDate: <input type="text" [(ngModel)]="item.DueDate" placeholder="yyyy-mm-dd"/></p>
+    <p>DueTime: <input type="text" [(ngModel)]="item.DueTime" placeholder="hh:ss"/></p>
+    <p>IsFinished: <input type="text" [(ngModel)]="item.isFinished" /></p>
+    <br>
+    <button class="back" (click)="back()">Back</button>
+    <button class="update" (click)="update()">Update</button>
+</div>

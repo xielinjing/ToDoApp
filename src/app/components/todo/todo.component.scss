@@ -1,0 +1,22 @@
+.todolist{
+    background: #999999;
+    padding: 10px 50px;
+    
+    ul li{
+        list-style: none;
+        padding: 10px 0;
+        button{
+            float: right;
+            margin: 0 3px;
+        }
+        font-size: 1.2em;
+    }
+}
+
+.add{
+    background: rgb(94, 80, 80);
+    color: rgb(235, 224, 224);
+    float: right;
+    width: 100px;
+    height: 30px;
+}
