@@ -6,6 +6,8 @@ This is a to do list application. The following function are completed:
 3. View todo items
 4. Update todo items
 
+The front end is implemented by angular, and the backend is implemented by Nodejs and Express.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
 ## Development server
