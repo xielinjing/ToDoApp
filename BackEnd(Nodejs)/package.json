@@ -1,0 +1,26 @@
+{
+  "name": "assignment-8-xielinjing",
+  "version": "1.0.0",
+  "description": "This assignment 8 is to develop a To-do List App by using Nodejs/Express, Rest API and MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2019/assignment-8-xielinjing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2019/assignment-8-xielinjing/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2019/assignment-8-xielinjing#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.10"
+  }
+}
