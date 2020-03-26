@@ -1,5 +1,11 @@
 # TodolistApp
 
+This is a to do list application. The following function are completed:
+1. Add todo items
+2. Delete todo items
+3. View todo items
+4. Update todo items
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
 ## Development server
